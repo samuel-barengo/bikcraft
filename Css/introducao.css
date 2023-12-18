@@ -1,0 +1,12 @@
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    gap: 50px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.introducao-titulo {
+    font-size: 64px;
+}
