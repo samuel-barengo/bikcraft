@@ -58,3 +58,42 @@
 .introducao a:hover {
     background: linear-gradient(#ffb60d, #e59317);
 }
+
+@media (max-width: 1200px) {
+
+    .introducao h1 {
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+
+    .introducao p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .introducao {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .introducao-conteudo {
+        padding-bottom: 0px;
+    }
+
+    .introducao h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .introducao a {
+        font-size: 1rem;
+        padding: 14px 25px;
+    }
+
+    .introducao img {
+        height: 300px;
+        width: 100%;
+    }
+}
