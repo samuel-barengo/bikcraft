@@ -1,0 +1,67 @@
+.bicicletas-lista {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.bicicletas-lista h2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.bicicletas-lista ul {
+    display: flex;
+    max-width: 1460px;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 0px 20px 20px;
+    overflow-x: auto;
+}
+
+.bicicletas-lista li {
+    min-width: 280px;
+    flex: 1;
+}
+
+.bicicletas-lista h3 {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 8px;
+}
+
+.bicicletas-lista h3::before {
+    content: "";
+    display: inline-block;
+    background-color: var(--cor-p1);
+    width: 12px;
+    height: 8px;
+    margin-right: 8px;
+    transition: width 0.3s;
+}
+
+.bicicletas-lista a:hover h3::before {
+    width: 24px;
+}
+
+.bicicletas-lista a {
+    display: block;
+}
+
+.bicicletas-lista li span {
+    margin-left: 20px;
+    color: var(--cor-8);
+}
+
+@media (max-width: 800px) {
+
+    .bicicletas-lista {
+        padding-bottom: 60px;
+    }
+
+    .bicicletas-lista ul {
+        gap: 20px;
+    }
+}

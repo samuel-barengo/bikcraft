@@ -6,10 +6,11 @@
     color: #332200;
     border-radius: 4px;
     padding: 16px 32px;
-    font-family: "poppins";
+    /*font-weight: 600;
     font-size: 18px;
-    font-weight: 600;
     line-height: 1.33;
+    font-family: "poppins";*/
+    font: 600 1.125rem/1.33 "poppins", sans-serif;
 }
 
 .botao:hover {
