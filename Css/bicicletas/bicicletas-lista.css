@@ -9,7 +9,7 @@
 
 .bicicletas-lista ul {
     display: flex;
-    max-width: 1460px;
+    max-width: 1400px;
     margin: 0 auto;
     gap: 40px;
     padding: 0px 20px 20px;

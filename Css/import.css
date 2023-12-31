@@ -14,6 +14,8 @@
 /*Lista bicicletas*/
 @import url(bicicletas/bicicletas-lista.css);
 
-
 /*Tecnologia*/
 @import url( home/tecnologia.css);
+
+/*Parceria*/
+@import url(home/parceiros.css);
