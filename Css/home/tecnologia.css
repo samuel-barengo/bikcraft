@@ -1,0 +1,122 @@
+.tecnologia-bg {
+    background: var(--cor-11);
+    box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.tecnologia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.tecnologia-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.tecnologia-conteudo {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.tecnologia-conteudo>span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h2 {
+    margin-bottom: 32px;
+}
+
+.tecnologia-conteudo>p {
+    margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h3 {
+    margin-bottom: 20px;
+}
+
+.tecnologia-conteudo a {
+    margin-bottom: 80px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom: 4px solid #ffbb00;
+}
+
+.tecnologia-conteudo a:hover {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.tecnologia-vantagens {
+    display: flex;
+    gap: 40px;
+}
+
+.tecnologia-vantagens h3 {
+    width: max-content;
+    margin-bottom: 8px;
+}
+
+.tecnologia-vantagens img {
+    width: 24px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+
+    .tecnologia-bg {
+        box-shadow: initial;
+    }
+
+    .tecnologia {
+        grid-template-columns: 1fr;
+    }
+
+    .tecnologia-conteudo {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .tecnologia-conteudo h2 {
+        font-size: 2rem;
+    }
+
+    .tecnologia-conteudo>span {
+        font-size: 1.2rem;
+    }
+
+    .tecnologia-conteudo p {
+        font-size: 1.125rem;
+    }
+
+    .tecnologia-conteudo a {
+        margin-bottom: 60px;
+    }
+
+    .tecnologia-imagem img {
+        display: none;
+    }
+
+    .tecnologia-vantagens p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .tecnologia-vantagens {
+        flex-direction: column ;
+    }
+
+    .tecnologia-conteudo {
+        padding-bottom: 20px;
+    }
+
+    .tecnologia-conteudo>span {
+        font-size: 1.125rem;
+    }
+}
