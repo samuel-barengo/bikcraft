@@ -20,5 +20,8 @@
 /*Parceria*/
 @import url(home/parceiros.css);
 
-/*depoimentto*/
+/*Depoimentto*/
 @import url(home/depoimentto.css);
+
+/*Seguros*/
+@import url(seguros/seguros.css);
