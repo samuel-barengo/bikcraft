@@ -15,7 +15,7 @@
 @import url(bicicletas/bicicletas-lista.css);
 
 /*Tecnologia*/
-@import url( home/tecnologia.css);
+@import url(home/tecnologia.css);
 
 /*Parceria*/
 @import url(home/parceiros.css);
@@ -25,3 +25,6 @@
 
 /*Seguros*/
 @import url(seguros/seguros.css);
+
+/*Rodapé*/
+@import url(global/footer.css);
