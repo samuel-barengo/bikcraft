@@ -43,6 +43,25 @@
     }
 }
 
+.botao.seta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.botao.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url("../../Img/icones/seta.svg");
+    transition: all 0.2s;
+}
+
+.botao.seta:hover::after {
+    transform: translateX(4px)
+}
 /*Titulo interno - Termos e condições*/
 
 .titulo-bg {
