@@ -27,6 +27,7 @@
 .bicicletas-conteudo {
     display: grid;
     grid-template-columns: 1fr auto;
+    align-content: start;
 }
 
 .bicicletas-conteudo h2,
@@ -44,7 +45,8 @@
     width: 12px;
     height: 8px;
     background-color: var(--cor-p1);
-    top: -16px;
+    margin-bottom: 8px;
+
 }
 
 .bicicletas-conteudo p {
@@ -78,3 +80,24 @@
     }
 }
 
+@media (max-width: 600px) {
+
+    .bicicletas-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .bicicletas h2 {
+        font-size: 1.5rem;
+    }
+
+    .bicicletas-conteudo ul {
+        font-size: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 32px;
+    }
+
+    .bicicletas-conteudo a {
+        place-self: start;
+        padding: 12px 16px;
+    }
+}
