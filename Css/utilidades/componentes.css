@@ -62,6 +62,7 @@
 .botao.seta:hover::after {
     transform: translateX(4px)
 }
+
 /*Titulo interno - Termos e condições*/
 
 .titulo-bg {

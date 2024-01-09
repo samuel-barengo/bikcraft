@@ -34,3 +34,9 @@
 
 /*Bicicletas*/
 @import url(bicicletas/bicicletas.css);
+
+/*Vantagens*/
+@import url(seguros/vantagens.css);
+
+/*Perguntas*/
+@import url(seguros/perguntas.css);
