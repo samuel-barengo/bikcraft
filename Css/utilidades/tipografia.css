@@ -37,7 +37,7 @@
 /***FONT ROBOTO***/
 
 .font-2-xs {
-    font: 400 0.75rem/0.875 "roboto", sans-serif;
+    font: 400 0.875rem/1.43 "roboto", sans-serif;
 }
 
 .font-2-s {
@@ -60,5 +60,5 @@
 }
 
 .font-2-xl {
-    font: 500 2rem/125 "roboto", sans-serif;
+    font: 500 2rem/1.25 "roboto", sans-serif;
 }

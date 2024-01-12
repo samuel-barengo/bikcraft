@@ -1,42 +1,30 @@
+/*Global*/
 @import url(global/global.css);
-
-/*Header*/
 @import url(global/header.css);
-
-/*Utilidades*/
-@import url(utilidades/tipografia.css);
-@import url(utilidades/cores.css);
-@import url(utilidades/componentes.css);
+@import url(global/footer.css);
 
 /*Home*/
 @import url(home/introducao.css);
+@import url(home/tecnologia.css);
+@import url(home/parceiros.css);
+@import url(home/depoimentto.css);
 
-/*Lista bicicletas*/
+/*Utilidades*/
+@import url(utilidades/componentes.css);
+@import url(utilidades/cores.css);
+@import url(utilidades/tipografia.css);
+
+/*bicicletas*/
+@import url(bicicletas/bicicletas.css);
 @import url(bicicletas/bicicletas-lista.css);
 
-/*Tecnologia*/
-@import url(home/tecnologia.css);
-
-/*Parceria*/
-@import url(home/parceiros.css);
-
-/*Depoimentto*/
-@import url(home/depoimentto.css);
+/*bike*/
+@import url(bike/bicicleta-1.css);
 
 /*Seguros*/
 @import url(seguros/seguros.css);
-
-/*Rodapé*/
-@import url(global/footer.css);
+@import url(seguros/vantagens.css);
+@import url(seguros/perguntas.css);
 
 /*termos*/
 @import url(termos/termos.css);
-
-/*Bicicletas*/
-@import url(bicicletas/bicicletas.css);
-
-/*Vantagens*/
-@import url(seguros/vantagens.css);
-
-/*Perguntas*/
-@import url(seguros/perguntas.css);
