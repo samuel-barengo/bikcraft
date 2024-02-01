@@ -13,19 +13,24 @@
 @import url(utilidades/componentes.css);
 @import url(utilidades/cores.css);
 @import url(utilidades/tipografia.css);
+@import url(utilidades/formulario.css);
 
 /*bicicletas*/
 @import url(bicicletas/bicicletas.css);
 @import url(bicicletas/bicicletas-lista.css);
 
 /*bike*/
-@import url(bike/bicicleta-1.css);
+@import url(bike/bicicleta.css);
 @import url(bike/bicicleta-seguro.css);
 
 /*Seguros*/
 @import url(seguros/seguros.css);
 @import url(seguros/vantagens.css);
 @import url(seguros/perguntas.css);
+
+/*Contato*/
+@import url(contato/contato.css);
+@import url(contato/lojas.css);
 
 /*termos*/
 @import url(termos/termos.css);
