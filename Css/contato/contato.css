@@ -41,6 +41,7 @@
     display: block;
     max-width: max-content;
     padding-left: 28px;
+    margin-bottom: 8px;
 }
 
 .contato-meios a:hover {
@@ -49,7 +50,7 @@
 
 .contato-meios a:first-child {
     background: url(../../Img/icones/email.svg) no-repeat 0 2px;
-    margin-bottom: 0;
+
 }
 
 .contato-meios a:nth-child(2) {

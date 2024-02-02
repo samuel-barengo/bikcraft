@@ -39,13 +39,13 @@
         <div class="titulo-bg">
             <div class="titulo container">
                 <p class="font-2-l-b cor-5">respostas em até 24h</p>
-                <h1 class="font-1-xxl cor-0">nosso contato.<span class="p1">.</span></h1>
+                <h1 class="font-1-xxl cor-0">nosso contato<span class="p1">.</span></h1>
             </div>
         </div>
 
         <div class="contato container">
             <section class="contato-dados" aria-label="endereço">
-                <h2 class="font-1-m cor-0">lojas online</h2>
+                <h2 class="font-1-m cor-0">Loja Online</h2>
 
                 <div class="contao-endereco font-2-s cor-4">
                     <p>Rua Ali Perto, 32</p>
@@ -56,7 +56,7 @@
                 <address class="contato-meios font-2-s cor-4">
                     <a href="#">contato@bikcraft.com</a>
                     <a href="#">assistencia@bikcraft.com</a>
-                    <a href="tel:+123456789">(71) 9999-9999</a>
+                    <a href="tel:+123456789">+55 71 9999-9999</a>
                 </address>
 
                 <div class="contato-redes">
@@ -68,7 +68,7 @@
 
             <section class="contato-formulario" aria-label="formulario">
                 <form class="form" action="./contato.html">
-                    <div class="formulario">
+                    <div>
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" placeholder="Seu nome">
                     </div>
@@ -78,21 +78,65 @@
                         <input type="text" id="telefone" name="telefone" placeholder="(71) 9999-9999">
                     </div>
 
-                    <div>
+                    <div class="col-2">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="contato@gmail.com">
                     </div>
 
-                    <div>
+                    <div class="col-2">
                         <label for="mensagem">Mensagem</label>
-                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"
-                            placeholder="O que você precisa?"></textarea>
+                        <textarea name="mensagem" id="mensagem" rows="5" placeholder="O que você precisa?"></textarea>
                     </div>
-                    <button class="botao">Enviar Mensagem</button>
+                    <button class="botao col-2">Enviar Mensagem</button>
                 </form>
             </section>
         </div>
     </main>
+
+    <article class="lojas container">
+        <h2 class="font-1-xxl">lojas locais<span class="p1">.</span></h2>
+
+        <div class="lojas-item">
+            <img src="Img/lojas/rj.jpg" alt="Marcando o endereõ Rua Ali Perto, 12 - Bahia - BA">
+
+            <div class="lojas-conteudo">
+                <h3 class="font-1-xl">Bahia</h3>
+
+                <div class="loja-dados font-2-s cor-8">
+                    <p>Rua Ali Perto, 12</p>
+                    <p>Bahia - BA</p>
+                </div>
+
+                <div class="loja-dados font-2-s cor-8">
+                    <p>Ba@bikcraft.com</p>
+                    <p>+55 71 9999-9999</p>
+                </div>
+
+                <p class="lojas-tempo font-1-s"> <img src="Img/icones/horario.svg" alt="">08-18h de seg à dom</p>
+            </div>
+
+        </div>
+
+        <div class="lojas-item">
+            <img src="Img/lojas/sp.jpg" alt="Marcando o endereõ Rua Ali Perto, 12 - Bahia - BA">
+
+            <div class="lojas-conteudo">
+                <h3 class="font-1-xl">São Paulo</h3>
+
+                <div class="loja-dados font-2-s cor-8">
+                    <p>Rua Ali Perto, 25</p>
+                    <p>São Paulo - SP</p>
+                </div>
+
+                <div class="loja-dados font-2-s cor-8">
+                    <p>sp@bikcraft.com</p>
+                    <p>+55 71 9999-9999</p>
+                </div>
+
+                <p class="lojas-tempo font-1-s"> <img src="Img/icones/horario.svg" alt="">08-18h de seg à dom</p>
+            </div>
+        </div>
+    </article>
 
     <footer class="footer-bg">
         <div class="footer container">
@@ -102,7 +146,7 @@
                 <h3 class="font-2-l-b cor-0">Contato</h3>
 
                 <ul class="font-2-m cor-5">
-                    <li> <a href="tel:+123456789">(71) 9999-9999</a></li>
+                    <li> <a href="tel:+123456789">+55 71 9999-9999</a></li>
                     <li> <a href="mailto:contao@bikcraft.com">contato@bikcraft.com</a></li>
                     <li>Rua Ali Perto, 42 - Salvador</li>
                     <li>Bahia</li>
