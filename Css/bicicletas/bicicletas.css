@@ -36,7 +36,7 @@
 }
 
 .bicicletas-conteudo h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .bicicletas-conteudo h2::before {
@@ -46,11 +46,10 @@
     height: 8px;
     background-color: var(--cor-p1);
     margin-bottom: 8px;
-
 }
 
 .bicicletas-conteudo p {
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .bicicletas-conteudo a {
