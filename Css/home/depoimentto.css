@@ -8,6 +8,7 @@
 
 .depoimento-conteudo {
     padding: 40px 40px 80px 80px;
+    background: url(../../Img/dec/bottom-right-p.svg) no-repeat  bottom 40px right 40px;
 }
 
 .depoimento img {
@@ -40,6 +41,13 @@
 
 .depoimento p::after {
     content: '”';
+}
+
+@media (min-width: 1200px) {
+
+    .depoiemnto img {
+        max-width: 520px;
+    }
 }
 
 @media (max-width: 800px) {

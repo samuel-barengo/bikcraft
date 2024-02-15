@@ -33,10 +33,14 @@
     border-radius: 5px;
 }
 
+.orcamento-dados {
+    background: url(../../Img/dec/bottom-right.svg) no-repeat bottom 20px right 20px;
+}
+
 .orcamento-produto {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: var(--cor-12);
+    background: var(--cor-12) url(../../Img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
     align-content: start;
     gap: 20px;
 }
@@ -166,6 +170,7 @@
 
     .orcamento-produto {
         border-radius: 5px 0 0 5px;
+        background: var(--cor-12);
     }
 
     .orcamento-dados {
